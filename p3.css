@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.all-info-container {
+  border: 1px solid red;
+}
+.header {
+  background-color: pink;
+  padding-bottom: 30px;
+}
+.header-white {
+  width: 80%;
+  margin: 25px auto;
+  background-color: white;
+  padding: 25px 0 25px;
+}
+.header-black {
+  width: 80%;
+  margin: 10px auto;
+  height: 50px;
+  background-color: #000000;
+}
+.menu-container {
+  background-color: grey;
+}
+.clear {
+  clear: both;
+  padding-bottom: 20px;
+}
+.clear2 {
+  clear: both;
+}
+.nav-list {
+  height: 200px;
+  width: 25%;
+  float: left;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-orange {
+  background-color: orange;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.block-list {
+  position: relative;
+  float: left;
+  height: 400px;
+  width: 33.3%;
+}
+.bg-f {
+  background-color: blueviolet;
+}
+.footer {
+  background-color: #000000;
+}
+.footer-h {
+  color: #fff;
+  height: 200px;
+}
+.bg-white {
+  background-color: #fff;
+}
+.top-left {
+  float: left;
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  padding-bottom: 50px;
+}
+.a-left {
+  margin-left: 10%;
+}
+.b-left,
+.a-left {
+  float: left;
+  width: 40%;
+  padding-bottom: 200px;
+}
+.central-block-list {
+  margin-top: 10%;
+  float: left;
+  width: 33.3%;
+  padding-bottom: 75.5%;
+}
+.a-c {
+  float: left;
+  width: 50%;
+  position: absolute;
+  bottom: 0%;
+  padding-bottom: 175%;
+}
+.b-c {
+  float: left;
+  width: 50%;
+  padding-bottom: 100%;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+#centr-block {
+  position: relative;
+  padding-bottom: 71.5%;
+}
+.right-block-list {
+  float: left;
+  width: 33.3%;
+  height: 200px;
+}
+#r-b {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+#r-y {
+  position: absolute;
+  left: 33.3%;
+  bottom: 80px;
+}
+#r-o {
+  position: absolute;
+  right: 0;
+  bottom: 130px;
+}
+.text-block {
+  float: left;
+  padding: 5px 0;
+  font-style: italic;
+  color: blue;
+  background-color: black;
+  width: 66.6%;
+  margin-top: 33.3%;
+}
+#first-text-block {
+  margin-left: 33.4%;
+}

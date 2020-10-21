@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практика 1</title>
+  </head>
+  <body style="background-color: silver">
+    <header><h1>Супер герої</h1></header>
+    <div>
+      <div id="heroList">
+        <h2>Список героїв</h2>
+        <ul>
+          <li>
+            <a href="#batman">Бетмен</a>
+          </li>
+          <li>
+            <a href="#joker">Джокер</a>
+          </li>
+          <li>
+            <a href="#superman">Супермен</a>
+          </li>
+          <li>
+            <a href="#flash">Флеш</a>
+          </li>
+        </ul>
+      </div>
+      <div id="batmanMain">
+        <h2>Бетмен</h2>
+        <div id="batmanInfo" style="display: flex">
+          <img
+            src="https://vignette.wikia.nocookie.net/marvel_dc/images/a/a6/Batman_Vol_2_2_Variant_Textless.jpg/revision/latest?cb=20120228075313"
+            alt="i am a batman!"
+            style="width: 250px"
+          />
+          <span style="width: 500px; margin-left: 20px">
+            Бетмен (англ. Batman; «людина-кажан») — вигаданий персонаж, герой,
+            персонаж коміксів видавництва DC Comics, який вперше з'явився у
+            серії «Detective Comics» у травні 1939 року. Поряд з Суперменом,
+            Бетмен є одним з найпопулярніших і відомих героїв коміксів. Його
+            створив художник Боб Кейн у співавторстві з письменником Біллом
+            Фінґером. Донедавна Боб Кейн вважався головним творцем персонажа,
+            але після багатьох досліджень, у 2015 році авторство було передано
+            Біллу Фінґеру, бо справжній внесок Кейна в створення героя був
+            досить незначним.
+          </span>
+        </div>
+      </div>
+      <div id="joker">
+        <h2>Джокер</h2>
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="joker"
+          style="width: 250px"
+        />
+        <p>
+          У коміксах Джокер — вбивця батьків Робіна, напарника Бетмена. Минуле
+          Джокера досі оповите таємницею. У коміксі «Going Sane» називають його
+          ім'я — Джозеф Керр. Проте цілком можливо, що навіть він сам вже не
+          пам'ятає, ким був до того, як став Джокером. Згідно з визнаною
+          канонічною версією чоловік, який став Джокером, упав у чан з хімічними
+          відходами, коли в костюмі Червоного Ковпака брав участь у пограбуванні
+          карткової фабрики. Внаслідок цього інциденту він отримав білу шкіру з
+          чорними тінями і зеленим волоссям, а на обличчі в нього назавжди
+          застигла посмішка. Він вбраний у фіолетовий костюм та б'ється різними
+          предметами, які стилізовані під реквізит клоуна чи ілюзіоніста.
+        </p>
+      </div>
+      <div id="superman">
+        <h2>Супермен</h2>
+        <img
+          src="https://vignette.wikia.nocookie.net/warrior/images/e/eb/119856_superman_majestic.jpg/revision/latest/top-crop/width/360/height/450?cb=20120814192830&path-prefix=ru"
+          alt="superman"
+          style="width: 250px"
+        />
+        <p>
+          Супермен — супергерой, персонаж коміксів, які випускаються компанією
+          DC Comics. Вигаданий Джеррі Сігелом і Джо Шустером та проданий
+          компанії Detective Comics (пізніше DC Comics). Персонаж вперше
+          з'явився на сторінках журналу «Action Comics» #1 (червень 1938-го), а
+          згодом і в різних радіопередачах, телевізійних програмах, фільмах, на
+          газетних шпальтах та у відеоіграх. Супермен вважається іконою
+          американської культури, яка відображає уявлення про справедливість.
+          Своїм успіхом персонаж допоміг створити жанр супергероїки і зайняв
+          першість серед інших супергероїв.
+        </p>
+      </div>
+      <div id="flash">
+        <h2>Флеш</h2>
+        <img
+          src="https://vignette.wikia.nocookie.net/soul-hunters/images/2/24/Flash.jpg/revision/latest?cb=20180309174051&path-prefix=ru"
+          alt="flash"
+          style="width: 250px"
+        />
+        <p>
+          Поточний Флеш, один із засновників Ліги Справедливості, дядько Воллі
+          Веста та дідусь Барта Аленна (Імпульс/Кід Флеш). Працює в поліції
+          криміналістом, отримав свої здібності, коли одного дня вночі в його
+          лабораторію вдарила блискавка й розбила пробірки з реагентами на нього
+          , давши йому доступ до Сили Швидкості . Коли виявив свої здібності,
+          взяв собі прізвисько «Флеш» на згадку про Джея Гаррика - героя
+          коміксів його дитинства. Помер героїчною смертю під час Кризи на
+          Безкінечних Землях в 1985 році. Але виявилось що він просто потрапив у
+          Силу Швидкості і повернувся майже через 20 років й став Чорним Флешем
+          у першому випуску "The Flash : Ribirth" . Є Флєшем і надалі . Після
+          перезапуску New52 його історія змінилась.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <h2>Корисні посилання</h2>
+      <span>
+        <a
+          href="https://uk.wikipedia.org/wiki/%D0%91%D0%B5%D1%82%D0%BC%D0%B5%D0%BD"
+          >Бетмен</a
+        >
+        <a
+          href="https://uk.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)"
+          >Джокер</a
+        >
+        <a
+          href="https://uk.wikipedia.org/wiki/%D0%A1%D1%83%D0%BF%D0%B5%D1%80%D0%BC%D0%B5%D0%BD"
+          >Супермен</a
+        >
+        <a
+          href="https://uk.wikipedia.org/wiki/%D0%A4%D0%BB%D0%B5%D1%88_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)"
+          >Флеш</a
+        >
+      </span>
+    </footer>
+  </body>
+</html>
